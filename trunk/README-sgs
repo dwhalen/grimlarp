@@ -1,0 +1,11 @@
+GameTeX/README-sgs
+
+sgsGameTex is a modification to the standard GameTeX version 1.3b.  The following changes are made:
+
+1) Organization name is now settable in LaTeX/game.cls.  This file is now needed to compile the rules document.
+
+2) The rules document has been pared down to remove MIT-specific references.
+
+3) GameTeX can now take an external file to define the game path as long as the $TEXINPUTS is set correctly.  See game.cls for details.
+
+ 
