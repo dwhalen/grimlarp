@@ -1,0 +1,71 @@
+Fireblast
+Requires: Proficiency (Fire) I
+Effect: Throw Spellpacket for Fire 1 damage
+Cooldown: Incant " the fire and cracks
+Of sulphurous roaring the most mighty Neptune
+Seem to besiege and make his bold waves tremble,
+Yea, his dread trident shake."
+
+Fireball
+
+Requires: Proficiency (Fire) II
+Effect: Throw a Spellpacket for Fire 2 damage blast
+Cooldown: Incant: "These violent delights have violent ends
+And in their triumph die, like fire and powder
+Which, as they kiss, consume."
+
+Enchanct Weapon 
+Requires: Proficiency (Fire) II
+Effect: The next attack made by target ally is type fire and does +2 damage. Only one may be active at a time.
+Cooldown: Incant: "Caesar's spirit, ranging for revenge,
+With Ate by his side come hot from hell,
+Shall in these confines with a monarch's voice
+Cry 'Havoc,' and let slip the dogs of war."
+
+Interrupt
+Requires: Proficiency (Fire) I
+Effect: Throw spell packet for Interrupt
+Cooldown: Incant "I have bedimm'd
+The noontide sun, call'd forth the mutinous winds,
+And 'twixt the green sea and the azured vault
+Set roaring war"
+
+Chain Lightning
+Requires: Proficiency (Lightning) I
+Effect: Throw spell packet for Lightning 1 damage blast
+Cooldown: Incant: "A big black bug bit a big black dog on his big black nose!"x2
+
+Haste
+Requries: Proficiency (Lightning) I
+Effect: Targeted ally's next attack can be made without cooldown
+Cooldown: Incant "Six sleek swans swam swiftly southwards"
+
+Dodge
+Requires: Proficiency (Lightning) II
+Effect: Targeted ally may dodge the next attack targeted at them. Only one copy of this may be active at a time.
+Cooldown: Incant "A synonym for cinnamon is a cinnamon synonym."
+
+Lightning Bolt
+Requires: Proficiency (Lightning) II
+Effect: Throw a spell packet for Lightning 3 damage
+Cooldown: Incant "Ripe white wheat reapers reap ripe white wheat right."
+
+Entangle
+Requires: Proficiency (Earth) I
+Effect: Throw a spell packet for root
+Cooldown: Incant "Y'knath gthu'n'ullha k'th'ryggki y'leth k'yi"
+
+Hurl Rocks
+Requires: Proficiency (Earth) I
+Effect: Throw a spell packet for 1 damage
+Cooldown: Incant "Krha'gr br'clnuilha wgah'rly'ueh v'glua n'gl"
+
+Push/Pull
+Requires: Proficiency (Earth) II
+Effect: Throw a spell packet for push or pull
+Cooldown: Incant "Rg'hlia k'gr f'nath rg'hlia gr'rnua"
+
+Slow
+Requires: Proficiency (Earth) II
+Effect: Throw a spell packet for slow
+Cooldown: Incant "Hng'uathua ngrlg'ngh t'krghu fteghn'uiangh-ikh'raghn"
