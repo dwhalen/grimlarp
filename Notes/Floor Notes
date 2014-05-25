@@ -1,0 +1,57 @@
+PROFICIENCIES:
+
+Swords 	1, 2
+Axes 	1, 2
+(some weapons do not require proficiencies)
+
+Throwing? 1, 2
+Ranged 1, 2
+
+Fire	1,2
+Lightning 1,2
+Earth 1,2  (status effects, mostly)
+
+
+WEAPONS
+
+Sword 1, 2, magic
+Axe 1, 2, magic
+
+
+
+Throwing 1, 2
+Ranged 1, 2, magic
+
+Bombs!
+
+
+
+Cooldowns
+Spells: incants
+		fire: verbose
+		lighting: tongue twisters
+		earth: lovecraftian gibberish
+
+Ranged: no cooldown, but limited ammo
+
+throwing: Toss object in air
+
+Melee: ???
+
+
+SPELLS
+
+Fire:	Fire blast	1
+	Fireball	2
+	Enchant Weapon	2
+	Interrupt	1
+
+Lightning: Chain light	1
+	Lightning bolt	2
+	Haste		1
+	Dodge		2
+	
+Earth:	push/pull	2
+	root		1
+	slow		2
+	untyped attack	1
