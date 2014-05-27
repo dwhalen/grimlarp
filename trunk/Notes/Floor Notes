@@ -1,57 +1,126 @@
-PROFICIENCIES:
+LEVEL 1
+Intro dungeon bit
 
-Swords 	1, 2
-Axes 	1, 2
-(some weapons do not require proficiencies)
+Monsters: Rats, Spiders, Rat*s, Spider*s
 
-Throwing? 1, 2
-Ranged 1, 2
-
-Fire	1,2
-Lightning 1,2
-Earth 1,2  (status effects, mostly)
-
-
-WEAPONS
-
-Sword 1, 2, magic
-Axe 1, 2, magic
+Combats:
+	1 rat
+	1 spider
+	3 spiders
+	2 rats, 1 rat*
 
 
 
-Throwing 1, 2
-Ranged 1, 2, magic
+Items:	1x Sword A
+	1x Axe A
+	1x Ranged A +2 ammo
+	3x Rock A
+	1x Leather armor
+	1x Antidote
+	1x Torch
+	1x Fireblast
+	1x LightningChain
+	1x EarthRock
+	*1x EarthRoot
 
-Bombs!
+	secret: 1x Poison Bracer, 1x Fire Bomb, 1x Healing Potion, 1x Quill
+		
+Rooms:	Loop: Rat + pits  button that closes pit with cryptic note + logic puzzle
+		Fire Bomb hidden in hallway
+	305: String maze 
+		Poison bracelet in back
+	317: --
+	202: Spider and key to loop
+	200: 3 Spiders
+		cryptic clue: chisel
+		Earthroot spell (obvious)
+	315*: --
+	303*: Pressure plate
+	202*: Laser turret
+	200*: 2 rats+rat*, key to next level.
 
 
+LEVEL 2
+Traps and more traps
 
-Cooldowns
-Spells: incants
-		fire: verbose
-		lighting: tongue twisters
-		earth: lovecraftian gibberish
+Monsters: Skeletons and skeleton archers, king
 
-Ranged: no cooldown, but limited ammo
-
-throwing: Toss object in air
-
-Melee: ???
-
-
-SPELLS
-
-Fire:	Fire blast	1
-	Fireball	2
-	Enchant Weapon	2
-	Interrupt	1
-
-Lightning: Chain light	1
-	Lightning bolt	2
-	Haste		1
-	Dodge		2
+Items:	Torch
+	Sword B
+	Axe B
+	Ranged B
+	Ranged C
+	Thrown B
+	Club B
+	more Rock As and Rock Bs
 	
-Earth:	push/pull	2
-	root		1
-	slow		2
-	untyped attack	1
+	Gravity
+	*LightningHaste
+	*EarthPushPull
+	Lightning Bolt (at end)
+	Fireball (at end)	
+
+	*Fire Torc
+	Map puzzle
+
+Rooms: 	200 Boss fight
+	202 Sudoku (sack)
+	205 Indiana Jones puzzle
+	203
+	217 Rotating laser turret
+	219 stealth turret (with bonus shield)
+	230 Monster summoner
+	loop
+
+Puzzles:Stealth Turret
+	Laser turret
+	Sudoku
+	Rotating laser turret
+	Miniboss
+	advanced Pressure plate puzzle
+	luring monsters puzzle
+
+LEVEL 3
+Palace and monsters
+
+Monsters: Oozes, beholders, diresnails
+
+Items:	Torch
+	Fire Enchant
+	Fire Harrass
+	Lightning Dodge
+	EarthSlow
+	
+	AxeC
+	SwordC
+	RockBs
+	Armor B
+	Armor A
+	Bombs
+	
+	
+
+
+Puzzles:Silenced Room
+	Some rooms blocked off
+	
+Rooms:	002
+	013
+	015
+	030
+	032: Fight across pit.  Panel that gets reset
+	034
+
+LEVEL 4
+Boss fight
+
+Puzzles: Bridge over lava pit.  Find demolition charges
+	 Gears for crushing wall trap.
+	 Chandelier trap along with physical challenge
+
+
+
+
+
+Ideas:	Ranged combat room in a lecture hall.
+	Coordinated jumping
