@@ -45,9 +45,13 @@ Characters will accumulate {\bf talents} over the course of the game.  These rep
 
 Combat will be represented by player skill in dodging physreps.  All attacks have an incant associated with them that describes the effects, usually including an amount of damage, any possibly status effects or attack modifiers.  When you perform the attack speak the incant clearly.  If you are hit by the attack --- the attacker calls the shot in case of a tie --- take the corresponding effect.  For example, an attack with an incant "Silence 2" would cause 2 damage and inflict {\bf Silence}.  If you have DR, reduce the damage taken by that amount.
 
-Certain attacks may be resisted or dodged.  If an attack fails to penetrate your DR or you are immune to the attack, incant ``resist''.  If you an ability to {\bf dodge} the attack, incant ``dodge''.  This represents the expenditure of a limited-use ability.
+Beyond physically avoiding the physrep, certain attacks may be resisted or dodged.  If an attack fails to penetrate your DR or you are immune to the attack, incant ``resist''.  If you an ability that allows you to {\bf dodge} the attack, incant ``dodge''.  In generally, {\bf dodges} are a limited-use ability.
 
+\subsection{Damage}  All players and monsters have an HP stat that indicates your current health and a maximum HP stat which indicates their maximum health.  At the start of the game and between each floor, your HP will be restored to its maximum. 
 
+If you take damage, decrease your HP by the corresponding amount.  If your HP decreases to 0 or decreases below 0, you are {\bf disabled}.  While {\bf disabled}, you may move no faster than heal-toe and may not perform any attacks.  You may interact with other mechanics, including consuming healing potions, which can restore you to health if they bring you above 0 HP.
+
+\subsection{Attacks}
 Different attacks are represented in different ways.  Most attacks have a cooldown ritual, which is performed before the implementing the attack, although for physical attacks these rituals can be done in advance.
 
 {\bf Melee:} Melee attacks are usable while holding a melee weapon and the attack is physrepped by a ping-pong ball.  Throw the ball and speak the incant.  You must perform a cooldown ritual before performing an attack.  To do so \TODO{Figure out melee cooldown}.
@@ -91,7 +95,13 @@ The following status effects and attack modifiers exist in game.  If you are hit
 
 \section{Other Abilities}
 
+Certain abilities may grant other effects.  The common effects are compiled below.
 
+{\bf Damage Reduction (DR):} {\bf DR} comes attached with a number, which reduces the damage you take from all physical sources (not fire, lightning, or piercing) by that number.
+
+{\bf Enchant:} If you gain {\bf enchant}, the next melee, thrown, or ranged attack you make deals 2 additional damage.
+
+{\bf Dodge:} If you gain {\bf dodge}, you may ignore the effects of the next attack that hits you.  If you do so, incant ``dodge''. 
 % Starting characters
 
 % Combat
