@@ -4,20 +4,22 @@
 
 \section{Scenario}
 
-A dungeon entrance lies at the top of Mount Grimrock, inaccessible except by airship.  Prisoner committing egregious crimes against the crown are sentenced to be thrown into the dungeon of Grimrock and abandoned there.  Any who pass through the dungeon and return are pardoned for their crimes, but no one has ever returned.
+A dungeon entrance lies at the top of Mount Grimrock, inaccessible except by airship.  Prisoners committing egregious crimes against the crown are sentenced to be thrown into the dungeon of Grimrock and abandoned there.  Any who pass through the dungeon and return are pardoned for their crimes, but no one has ever returned.
 
 You and three other criminals have been chained together and banished into the dungeons of Grimrock.
 
 
 \section{Chain}
 
-All of the players are chained together. The manacles and chain will be represented by clipping players onto a loop of rope.  In principle the players are manacled together and cannot free themselves from the rope, but in practice players may need to detach for safety reasons or to rearrange the party.
+All of the players are chained together. The manacles and chain will be represented by clipping players onto a loop of rope.  In principle the characters are manacled together and cannot free themselves from the rope, but in practice players may need to detach for safety reasons or to rearrange the party.
 
 If any player is detached from the chain, all players attached to the chain are {\bf rooted}.  Any players unattached are {\bf dazed} and may only walk towards the chain.
 
+If you somehow find a way to gain a tactical advantage by detaching some of your players from the chain anyway, the GMs will find a way to make sure that it doesn't help either.
+
 \section{Dungeon Components}
 
-{\bf Pits:}  Large pits are represented by red masking tape on the floor.  If any part of your body touches the interior of a pit, you trip into it, but are caught by your teammates.  You take 1 piercing damage, and are {\bf immobile} until you escape the pit, which may only be done with the assistance of a teammate.  Pulling an ally out of a pit is a 15-count, during which time you are {\bf immobile}.
+{\bf Pits:}  Large pits are represented by red masking tape on the floor.  If any part of your body touches the interior of a pit, you trip into it, but are caught by your teammates.  You take 1 piercing damage, and are {\bf immobile} until you escape the pit, which may only be done with the assistance of a teammate.  Pulling an ally out of a pit is a 15-count, during which time you are {\bf immobile}. If the entire party somehow manages to fall into a pit simultaneously, they call all climb out on a 15-count. When leaving a pit, you must exit on the same side that you fell in on.
 
 {\bf Strings:} Strings represent hazardous materials.  If you touch a string, take 1 piercing damage immediately.  There may be additional effects controlled by a GM.
 
@@ -45,14 +47,14 @@ Characters will accumulate {\bf talents} over the course of the game.  These rep
 
 Combat will be represented by player skill in dodging physreps.  All attacks have an incant associated with them that describes the effects, usually including an amount of damage, any possibly status effects or attack modifiers.  When you perform the attack speak the incant clearly.  If you are hit by the attack --- the attacker calls the shot in case of a tie --- take the corresponding effect.  For example, an attack with an incant "Silence 2" would cause 2 damage and inflict {\bf Silence}.  If you have DR, reduce the damage taken by that amount.
 
-Beyond physically avoiding the physrep, certain attacks may be resisted or dodged.  If an attack fails to penetrate your DR or you are immune to the attack, incant ``resist''.  If you an ability that allows you to {\bf dodge} the attack, incant ``dodge''.  In generally, {\bf dodges} are a limited-use ability.
+Beyond physically avoiding the physrep, certain attacks may be resisted or dodged.  If an attack fails to penetrate your DR or you are immune to the attack, incant ``resist''.  If you have an ability that allows you to {\bf dodge} the attack, incant ``dodge''.  In generally, {\bf dodges} are a limited-use ability.
 
-\subsection{Damage}  All players and monsters have an HP stat that indicates your current health and a maximum HP stat which indicates their maximum health.  At the start of the game and between each floor, your HP will be restored to its maximum. 
+\subsection{Damage}  All players and monsters have an HP stat that indicates your current health and a maximum HP stat which indicates their maximum health.  At the start of the game and between each floor, your HP will be restored to its maximum.
 
 If you take damage, decrease your HP by the corresponding amount.  If your HP decreases to 0 or decreases below 0, you are {\bf disabled}.  While {\bf disabled}, you may move no faster than heal-toe and may not perform any attacks.  You may interact with other mechanics, including consuming healing potions, which can restore you to health if they bring you above 0 HP.
 
 \subsection{Attacks}
-Different attacks are represented in different ways.  Most attacks have a cooldown ritual, which is performed before the implementing the attack, although for physical attacks these rituals can be done in advance.
+Different attacks are represented in different ways.  Most attacks have a cooldown ritual, which is performed before the implementing the attack, although for physical attacks these rituals can be done in advance. Note that unless you know otherwise, you may store up progress for a cooldown ritual for as long as desired, though starting a second cooldown ritual negates a progress made on the first one.
 
 {\bf Melee:} Melee attacks are usable while holding a melee weapon and the attack is physrepped by a ping-pong ball.  Throw the ball and speak the incant.  You must perform a cooldown ritual before performing an attack.  To do so \TODO{Figure out melee cooldown}.
 
@@ -64,7 +66,9 @@ Different attacks are represented in different ways.  Most attacks have a cooldo
 
 \section{Incant Effects}
 
-Certain attacks may have incants that cause them to do things other than direct damage.  If an incant contains any of the following phrases, the attack is modified as indicated.
+Attacks in game have many possible effects. This effect of a given attack is distinguished by the incant made upon making the attack. If you are hit by an attack and did not hear the incant, say ``miscast'' (or something else appropriate) to indicate this so that the effect may be restated. An incant will consist of several effects or modifiers as listed below:
+
+{\bf $n$-Damage:} The attack does a total of $n$ damage to anyone that it hits.
 
 {\bf Blast:} This attack effects everyone within 1 ZoC of where the attack lands.
 
@@ -75,7 +79,7 @@ Certain attacks may have incants that cause them to do things other than direct 
 {\bf Piercing:} The attack ignores DR.  Piercing attacks may also ignore other defensive abilities.
 
 
-\section{Status Effects}
+\subsection{Status Effects}
 
 The following status effects and attack modifiers exist in game.  If you are hit by an attack that uses one of these incants, take the appropriate effect.  Unless indicated otherwise, status effects will last for {\bf 30 seconds}.
 
@@ -93,6 +97,8 @@ The following status effects and attack modifiers exist in game.  If you are hit
 
 {\bf Root:} When you are rooted, pick one of your  limbs in contact with the ground.  You may not move that limb.
 
+{\bf Slow:} While you are slowed, you must perform the ritual for any attack twice consecutively before making the attack.
+
 \section{Other Abilities}
 
 Certain abilities may grant other effects.  The common effects are compiled below.
@@ -101,7 +107,7 @@ Certain abilities may grant other effects.  The common effects are compiled belo
 
 {\bf Enchant:} If you gain {\bf enchant}, the next melee, thrown, or ranged attack you make deals 2 additional damage.
 
-{\bf Dodge:} If you gain {\bf dodge}, you may ignore the effects of the next attack that hits you.  If you do so, incant ``dodge''. 
+{\bf Dodge:} If you gain {\bf dodge}, you may ignore the effects of the next attack that hits you.  If you do so, incant ``dodge''.
 % Starting characters
 
 % Combat
