@@ -136,60 +136,171 @@
   \s\MYtext	{A lecture hall with large, sliding blackboards.}
   }
 
-\NEW{Sign}{\lookAround}{
+\NEW{Sign}{\slookAround}{
   \s\MYname{Writing on the wall}
   \s\MYloc{Start}
   \s\MYText{{\fontsize{120}{144} \normalfont Look Around You}}
   }
 
-\NEW{Sign}{\walkabout}{
+\NEW{Sign}{\swalkabout}{
   \s\MYname{Writing on the wall}
   \s\MYloc{near start}
   \s\MYText{{\fontsize{120}{144} \normalfont You never know where an odd walk will take you.}}
   }
 
-\NEW{Sign}{\introSign}{
+\NEW{Sign}{\sintroSign}{
   \s\MYname{Dark Hallways}
   \s\MYloc{Start}
   \s\MYText{At the bottom of the pit, you see a dark stone hallway stretches onwards before you. The walls are spotted with prison cells, though there is no sign of life inside them. You can hear the screeching of rats off in the distance.}
   }
 
-\NEW{Sign}{\corpse}{
+\NEW{Sign}{\scorpse}{
   \s\MYname{Skeleton}
   \s\MYloc{3rd floor alcove}
   \s\MYtext{The bones of another who braved these dungeons before you.}
   }
 
-\NEW{Sign}{\collapsedroom}{
+\NEW{Sign}{\scollapsedroom}{
   \s\MYname{Wreckage}
   \s\MYloc{305}
   \s\MYtext{The room is filled with collapsed stone. You should watch your step to avoid setting off another avalanche.}
   }
 
-\NEW{Sign}{\guardhouse}{
+\NEW{Sign}{\sguardhouse}{
   \s\MYname{Guard House}
   \s\MYloc{303}
   \s\MYtest{A wall and pit that would once have separated prisoners from what lies beyond. A small guardhouse on the far side seems to have a mechanism for deactivating the wall. The ground on the pit and beyond glows with a strange blue light.}
   }
 
-\NEW{Sign}{\floorthreetoone}{
+\NEW{Sign}{\sfloorthreetoone}{
   \s\MYname{Stairs}
   \s\MYloc{3rd floor stairs}
   \s\MYText{You may take these stairs to the first floor}
   }
 
-\NEW{Sign}{\flooronetothree}{
+\NEW{Sign}{\sflooronetothree}{
   \s\MYname{Stairs}
   \s\MYloc{1st floor stairs}
   \s\MYText{You may take these stairs to the third floor}
   }
 
-\NEW{Sign}{\gemeye}{
+\NEW{Sign}{\sgemeye}{
   \s\MYname{Statue}
   \s\MYloc{3rd floor hallway}
   \s\MYText{You see a stone lion statue. One of its eyes is a blue gem. The other socket is empty. Inscribed below is ``I can see the way''.}
   }
+  
+\NEW{Sign}{\spalace}{
+  \s\MYname{The Palace}
+  \s\MYloc{2nd floor entrance}
+  \s\MYtext{After descending for what seems like an eternity, you exit the stairs to find another corridor. Things are different here. The walls are made of gold and marble, and tattered banners hang from the ceiling. It would look almost inviting were it not for the layers of dust that coat everything and eerie silence that surrounds you.}
+  }
 
+\NEW{Sign}{\spalaceexit}{
+  \s\MYname{Stairs}
+  \s\MYloc{Floor 2 Exit}
+  \s\MYtext{Behind this door you see stairs descending deeper into the mountain. Unfortunately, the door appears to be locked. There is a key hole, but you're going to need a key.
+  
+  If you have a key (item number \ikey{\MYnumber}) you may take these stairs to the basement.}
+  }
+  
+\NEW{Sign}{\srubysign}{
+  \s\MYname{Safe}
+  \s\MYloc{2nd Floor Hallways}
+  \s\MYtext{A small alcove in the wall, blocked by steel bars. In the back you can see a small ruby glittering.}
+  }
+  
+\NEW{Sign}{\ssudoku}{
+  \s\MYname{Mysterious symbols}
+  \s\MYloc{201}
+  \s\MYtext{
+  \begin{tabular}{||c|c|c||c|c|c||c|c|c||}
+  \hline
+  \hline
+  5& &2& &8&1& &9& \\
+   & &9& & &7&8&2&4\\
+  8& &4&9& &6& & &7\\
+  \hline
+  \hline
+   &2&8&7& & & &4&1\\
+  7&4& &6&?& &5& &8\\
+   & &5&1&4&8& & &6\\
+  \hline
+  \hline
+   & & &5&6&9&7&1& \\
+  9&1& & &7& &4&8& \\
+  2&5&7& &1& &3& & \\
+  \hline
+  \hline
+  \end{tabular}
+  }
+  }
+  
+\NEW{Sign}{\sexplosion}{
+  \s\MYname{Bomb}
+  \s\MYloc{201}
+  \s\MYtext{Upon looking into this box, something explodes. Each PC takes 2 fire damage.}
+  }
+  
+\NEW{Sign}{\sarchives}{
+  \s\MYname{The archives}
+  \s\MYloc{201}
+  \s\MYtext{You come across the palace archives. The room is filled with row after row of bookshelves. Unfortunately, most of the books have decayed beyond readability by this point.}
+  }
+  
+\NEW{Sign}{\sThroneRoom}{
+  \s\MYname{Throne Room}
+  \s\MYloc{202}
+  \s\MYtext{You see what once must have been a majestic throne room. The high ceiling and glorious spires draw your attention to the skeleton sitting on the throne with a small golden key about his neck. Unfortunately, a heavy metal gate and several incongruous pits block your path to the throne.}
+  }
+  
+\NEW{Sign}{\sKitchen}{
+  \s\MYname{Kitchens}
+  \s\MYloc{203}
+  \s\MYtext{Probably the kitchens from long ago. The food in the stores has long ago decayed into nothing.}
+  }
+  
+\NEW{Sign}{\sArmory}{
+  \s\MYname{Armory}
+  \s\MYloc{205}
+  \s\MYtext{The old armory. The walls are cluttered with weapons and armor. A pair of heavily armed statues watch the doors ominously.}
+  }
+  
+\NEW{Sign}{\sBarracks}{
+  \s\MYname{The Barracks}
+  \s\MYloc{217}
+  \s\MYtext{Rows of bunks line the walls. You would think that they are long abandoned, but the skeletons of three of the former inhabitants patrol the room. You see a large ruby trapped in one the the skeletons' chest cavity. Some strange defensive fixture continues to spin in the center of the room.}
+  }
+  
+\NEW{Sign}{\sTreasury}{
+  \s\MYname{Treasury}
+  \s\MYloc{219}
+  \s\MYtext{The room is full of gold. Surprising perhaps that the door is unlocked. At least until you note the clockwork archer in the center of the room and the tripwires along the edges. And the corpse in the corner.
+  
+  On further observation, the archer seems to be without eyes. There must be something going on here.}
+  }
 
+\NEW{Sign}{\sTarget}{
+  \s\MYname{Weak spot}
+  \s\MYloc{219}
+  \s\MYtext{A portion of wall with small, but noticeable cracks in it.}
+  }
+\NEW{Sign}{\sVaras}{
+  \s\MYname{A corpse}
+  \s\MYloc{219}
+  \s\MYtext{Now only bones. Several large arrows protrude from its chest. It seems to still be clutching a sack full of gold coins.}
+  }
+  
+\NEW{Sign}{\sDungeons}{
+  \s\MYname{Dungeons}
+  \s\MYloc{230}
+  \s\MYtext{This room appears to be the entrance to a dungeon. Heavily barred gates block the way into a long corridor filled with small cells.}
+  }
+  
+\NEW{Sign}{\sSpawnPoint}{
+  \s\MYname{Gate}
+  \s\MYloc{230}
+  \s\MYtext{A barred gate. Looking beyond, you can see motion. Looks like some of the guards are not as dead as they should be.}
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
