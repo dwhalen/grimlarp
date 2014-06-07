@@ -62,7 +62,7 @@
 \PRESETS{SignDot}{\s\MYtext{}}
 
 \DECLARESUBTYPE{Label}{Sign}
-\PRESETS{Label}{\s\MYloc{}}
+\PRESETS{Label}{}
 \DECLARESUBTYPE{LabelMedium}{Label}
 \DECLARESUBTYPE{LabelSmall}{Label}
 
@@ -130,63 +130,53 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\NEW{Sign}{\sTest}{
-  \s\MYname	{A Room}
-  \s\MYloc	{10-250}
-  \s\MYtext	{A lecture hall with large, sliding blackboards.}
-  }
-
 \NEW{Sign}{\slookAround}{
   \s\MYname{Writing on the wall}
-  \s\MYloc{}
   \s\MYtext{{\fontsize{120}{144} \normalfont Look Around You}}
   }
 
 \NEW{Sign}{\swalkabout}{
   \s\MYname{Writing on the wall}
-  \s\MYloc{}
   \s\MYtext{{\fontsize{120}{144} \normalfont You never know where an odd walk will take you.}}
   }
 
 \NEW{Sign}{\sintroSign}{
   \s\MYname{Dark Hallways}
-  \s\MYloc{}
   \s\MYtext{At the bottom of the pit, you see a dark stone hallway stretches onwards before you. The walls are spotted with prison cells, though there is no sign of life inside them. You can hear the screeching of rats off in the distance.}
   }
 
 \NEW{Sign}{\scorpse}{
   \s\MYname{Skeleton}
-  \s\MYloc{}
   \s\MYtext{The bones of another who braved these dungeons before you.}
   }
 
 \NEW{Sign}{\scollapsedroom}{
   \s\MYname{Wreckage}
-  \s\MYloc{}
+  
   \s\MYtext{The room is filled with collapsed stone. You should watch your step to avoid setting off another avalanche.}
   }
 
 \NEW{Sign}{\sguardhouse}{
   \s\MYname{Guard House}
-  \s\MYloc{}
+  
   \s\MYtext{A wall and pit that would once have separated prisoners from what lies beyond. A small guardhouse on the far side seems to have a mechanism for deactivating the wall. The ground on the pit and beyond glows with a strange blue light.}
   }
 
 \NEW{Sign}{\sfloorthreetoone}{
   \s\MYname{Stairs}
-  \s\MYloc{}
+  
   \s\MYtext{You may take these stairs to the first floor}
   }
 
 \NEW{Sign}{\sflooronetothree}{
   \s\MYname{Stairs}
-  \s\MYloc{}
+  
   \s\MYtext{You may take these stairs to the third floor}
   }
 
 \NEW{Sign}{\sgemeye}{
   \s\MYname{Statue}
-  \s\MYloc{}
+  
   \s\MYtext{You see a stone lion statue. One of its eyes is a blue gem. The other socket is empty. Inscribed below is ``I can see the way''.
   
   If you want to interact with the statue, contact a GM.}
@@ -194,13 +184,13 @@
 
 \NEW{Sign}{\spalace}{
   \s\MYname{The Palace}
-  \s\MYloc{}
+  
   \s\MYtext{After descending for what seems like an eternity, you exit the stairs to find another corridor. Things are different here. The walls are made of gold and marble, and tattered banners hang from the ceiling. It would look almost inviting were it not for the layers of dust that coat everything and eerie silence that surrounds you.}
   }
 
 \NEW{Sign}{\spalaceexit}{
   \s\MYname{Stairs}
-  \s\MYloc{}
+  
   \s\MYtext{Behind this door you see stairs descending deeper into the mountain. Unfortunately, the door appears to be locked. There is a key hole, but you're going to need a key.
 
   If you have a key (item number \ikey{\MYnumber}) you may take these stairs to the basement.}
@@ -208,29 +198,35 @@
 
 \NEW{Sign}{\srubysign}{
   \s\MYname{Safe}
-  \s\MYloc{}
+  
   \s\MYtext{A small alcove in the wall, blocked by steel bars. In the back you can see a small ruby glittering.}
   }
 
 \NEW{Sign}{\ssudoku}{
   \s\MYname{Mysterious symbols}
-  \s\MYloc{}
+  
   \s\MYtext{
   \begin{tabular}{||c|c|c||c|c|c||c|c|c||}
   \hline
   \hline
   5& &2& &8&1& &9& \\
+  \hline
    & &9& & &7&8&2&4\\
+  \hline
   8& &4&9& &6& & &7\\
   \hline
   \hline
    &2&8&7& & & &4&1\\
+  \hline
   7&4& &6&?& &5& &8\\
+   \hline
    & &5&1&4&8& & &6\\
   \hline
   \hline
    & & &5&6&9&7&1& \\
+  \hline
   9&1& & &7& &4&8& \\
+  \hline
   2&5&7& &1& &3& & \\
   \hline
   \hline
@@ -240,94 +236,94 @@
 
 \NEW{Sign}{\sexplosion}{
   \s\MYname{Bomb}
-  \s\MYloc{}
+  
   \s\MYtext{Upon looking into this box, something explodes. Each PC takes 2 fire damage.}
   }
   
 \NEW{Sign}{\sBoxA}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 1 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sBoxB}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 2 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sBoxC}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 3 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sBoxD}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 4 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sBoxE}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 5 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sBoxF}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 6 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sBoxG}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 7 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sBoxH}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 8 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sBoxI}{
   \s\MYname{Box}
-  \s\MYloc{}
+  
   \s\MYtext{ A box with a large 9 written on it. To open it, look at the sign behind this one. }
   }
 \NEW{Sign}{\sFoundScroll}{
   \s\MYname{Contents}
-  \s\MYloc{}
+  
   \s\MYtext{You find a scroll inside the box.}
   }
 
 \NEW{Sign}{\sarchives}{
   \s\MYname{The archives}
-  \s\MYloc{}
+  
   \s\MYtext{You come across the palace archives. The room is filled with row after row of bookshelves. Unfortunately, most of the books have decayed beyond readability by this point.}
   }
 
 \NEW{Sign}{\sThroneRoom}{
   \s\MYname{Throne Room}
-  \s\MYloc{}
+  
   \s\MYtext{You see what once must have been a majestic throne room. The high ceiling and glorious spires draw your attention to the skeleton sitting on the throne with a small golden key about his neck. Unfortunately, a heavy metal gate and several incongruous pits block your path to the throne.}
   }
 
 \NEW{Sign}{\sKitchen}{
   \s\MYname{Kitchens}
-  \s\MYloc{}
+  
   \s\MYtext{Probably the kitchens from long ago. The food in the stores has long ago decayed into nothing.}
   }
 
 \NEW{Sign}{\sArmory}{
   \s\MYname{Armory}
-  \s\MYloc{}
+  
   \s\MYtext{The old armory. The walls are cluttered with weapons and armor. A pair of heavily armed statues watch the doors ominously.}
   }
 
 \NEW{Sign}{\sBarracks}{
   \s\MYname{The Barracks}
-  \s\MYloc{}
+  
   \s\MYtext{Rows of bunks line the walls. You would think that they are long abandoned, but the skeletons of three of the former inhabitants patrol the room. You see a large ruby trapped in one the the skeletons' chest cavity. Some strange defensive fixture continues to spin in the center of the room.}
   }
 
 \NEW{Sign}{\sTreasury}{
   \s\MYname{Treasury}
-  \s\MYloc{}
+  
   \s\MYtext{The room is full of gold. Surprising perhaps that the door is unlocked. At least until you note the clockwork archer in the center of the room and the tripwires along the edges. And the corpse in the corner.
 
   On further observation, the archer seems to be without eyes. There must be something going on here.}
@@ -335,24 +331,24 @@
 
 \NEW{Sign}{\sTarget}{
   \s\MYname{Weak spot}
-  \s\MYloc{}
+  
   \s\MYtext{A portion of wall with small, but noticeable cracks in it.}
   }
 \NEW{Sign}{\sVaras}{
   \s\MYname{A corpse}
-  \s\MYloc{}
+  
   \s\MYtext{Now only bones. Several large arrows protrude from its chest. It seems to still be clutching a sack full of gold coins.}
   }
 
 \NEW{Sign}{\sDungeons}{
   \s\MYname{Dungeons}
-  \s\MYloc{}
+  
   \s\MYtext{This room appears to be the entrance to a dungeon. Heavily barred gates block the way into a long corridor filled with small cells.}
   }
 
 \NEW{Sign}{\sSpawnPoint}{
   \s\MYname{Gate}
-  \s\MYloc{}
+  
   \s\MYtext{A barred gate. Looking beyond, you can see motion. Looks like some of the guards are not as dead as they should be.}
   }
 
