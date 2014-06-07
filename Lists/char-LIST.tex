@@ -160,24 +160,61 @@
 %%     \s\MYfile	{}
 %%     }
 %%
-\NEW{PC}{\cTest}{
+\NEW{PC}{\cPlayer}{
   \s\MYname	{Player}
   \s\MYfile	{README.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{}
-  \s\MYplayer	{Test Player}
-  \s\MYgreens	{\gRules{}\gTalents{}}
-  \s\MYabils	{}
+  \s\MYplayer	{Player}
+  \s\MYgreens	{\multi{12}{\gRules}\multi{12}{\gTalents{}}}
+  \s\MYabils	{
+  \pageof{\swordsa{}}
+  \pageof{\swordsb{}}
+  \pageof{\axe{}}
+  \pageof{\axeb{}}
+  \pageof{\rangeda{}}}
+  \pageof{\rangedb{}}}
+  \pageof{\throwa{}}}
+  \pageof{\throwb{}}}
+  \pageof{\firea{}}}
+  \pageof{\fireb{}}}
+  \pageof{\lightninga{}}}
+  \pageof{\lightningb{}}}
+  \pageof{\eartha{}}}
+  \pageof{\earhtb{}}}
+  \pageof{\armor{}}}
+  \pageof{\axeDam{}}}
+  \pageof{\swordSpeed{}}}
+  \pageof{\sack{}}}
+  \pageof{\hp{}}}
+  \pageof{\levitate{}}}
+  \pageof{\hpTransfer{}}}
+  \pageof{\mem{}}}
+  \pageof{\daze{}}}
+  \pageof{\alchemy{}}}
+  \pageof{\push{}}}
+  \pageof{\fireres{}}}
+  \pageof{\lightres{}}}
+  \pageof{\poires{}}}
+  \pageof{\freedomofmovement{}}}
+  \pageof{\ammo{}}}
+  \pageof{\guard{}}}
+  \pageof{\dodge{}}}
+  \pageof{\extraheal{}}}
+  \pageof{\extraspeed{}}}
+  \pageof{\juggle{}}}
+  }
   \s\MYitems	{}
   \s\MYwhites	{}
   }
 
 \NEW{NPC}{\cNPC}{
-  \s\MYname	{Nathan Clueless \suf III}
-  \nickname	{Nate Clueless}
-  \s\MYnumber	{00000}
-  \s\MYdesc	{a suspicious person}
-  \s\MYplayer	{GM Helper}
+  \s\MYname	{NPC}
+  \nickname	{}
+  \s\MYnumber	{}
+  \s\MYdesc	{}
+  \s\MYplayer	{}
+  \s\MYgreens	{\multi{12}{\gRules}\multi{12}{\gNPC{}}}}
   }
 
 \NEW{Name}{\cSomeGuy}{
