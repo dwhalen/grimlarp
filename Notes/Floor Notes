@@ -56,15 +56,15 @@ Items:	Torch
 	
 	Gravity
 	*LightningHaste
-	*EarthPushPull
+	Fire Harrass
 	Lightning Bolt (at end)
 	Fireball (at end)	
 
 	*Fire Torc
 	Map puzzle
 
-Rooms: 	200 Boss fight
-	202 Sudoku (sack)
+Rooms: 	202 Boss fight
+	201 Sudoku (sack)
 	205 Indiana Jones puzzle
 	203
 	217 Rotating laser turret
@@ -87,14 +87,13 @@ Monsters: Oozes, beholders, diresnails
 
 Items:	Torch
 	Fire Enchant
-	Fire Harrass
 	Lightning Dodge
 	EarthSlow
 	
 	AxeC
 	SwordC
 	RockBs
-	Armor B
+	Armor C
 	Armor A
 	Bombs
 	
@@ -104,12 +103,12 @@ Items:	Torch
 Puzzles:Silenced Room
 	Some rooms blocked off
 	
-Rooms:	002
-	013
-	015
-	030
-	032: Fight across pit.  Panel that gets reset
-	034
+Rooms:	002: 
+	013: Bridge over lava pit
+	015: Room with gears
+	030: Fight across pit.  Panel that gets reset.
+	032: Final Boss.
+	034: Silenced room, simultaneous button pushing.
 
 LEVEL 4
 Boss fight
