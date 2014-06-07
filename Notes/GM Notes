@@ -1,57 +1,68 @@
-PROFICIENCIES:
+LEVEL 1:
 
-Swords 	1, 2
-Axes 	1, 2
-(some weapons do not require proficiencies)
+Walking about the loop on the third floor toggles the players between side A and side B.
 
-Throwing? 1, 2
-Ranged 1, 2
+Side A:
 
-Fire	1,2
-Lightning 1,2
-Earth 1,2  (status effects, mostly)
+Third Floor:
+* Walls near start and 200-305 open when sign consumes Blue Gem.
+* Button 1 toggles Doors 2&4
+* Button 2 toggles Doors 3&4
+* Button 3 toggles Doors 1&2&3
+* Button 4 toggles Doors 1&3
+* 200-303 CLOSED
 
+200-305: No Notes.
 
-WEAPONS
+First Floor:
 
-Sword 1, 2, magic
-Axe 1, 2, magic
+Side B:
 
+Third Floor:
+* Wall near 200-303 Appears.
+* 200-305 CLOSED
 
+200-303: Return ammo to players that lands on the far side of the pit. Pressure plate deactivates wall.
 
-Throwing 1, 2
-Ranged 1, 2, magic
+First Floor:
 
-Bombs!
+LEVEL 2:
 
+Hallways: If all three pressure plates are depressed simultaneously (not by rocks), ruby appears at sign.
 
+200-201: Box 9 Causes Haste to appear.
 
-Cooldowns
-Spells: incants
-		fire: verbose
-		lighting: tongue twisters
-		earth: lovecraftian gibberish
+200-202:
+* Bowls labelled x5, x17, x25, x28, x43, x58, x64 
+* Boss summoned when rubies in bowls totalling 100 (25 & 25 & 25 & 25 OR 17 & 25 & 58).
+* Boss is Greater Skeleton Swordsman with giant shield. Appears on throne. Wall vanishes.
+* Drops Key, LightningBolt, Fireball when Boss dies.
 
-Ranged: no cooldown, but limited ammo
+200-203: If pressureplates activated in order (cannot be active at start) within 10 second period, drop ruby on table.
 
-throwing: Toss object in air
+200-205: If scale tips beyond red lines, turrets open fire.
 
-Melee: ???
+200-217:
+* Turret rotates about once every 5 seconds with lazer at waist height. If players break beam, fires ``Fire, 1 damage, Blast''
+* Once three skeletons are dead, drop Ruby.
 
+200-219:
+* Mini Turrets fire ``Fire 1 damage'' if beam is broken (at most once/ 2 sec)
+* Stealth Turret has music and blindfold. Fires ``Pierce 1 damage''.
+* NPC sweeps ammo for turrets. (and reloads for the blind one if necessary)
+* If Stealth turret hits the target, drop ruby.
+* Shield physically tied to bell.
 
-SPELLS
+200-230:
+* Whenever a player presses the button, a wimpy skeleton archer is summoned near the spawn point sign.
 
-Fire:	Fire blast	1
-	Fireball	2
-	Enchant Weapon	2
-	Interrupt	1
+LEVEL 3:
 
-Lightning: Chain light	1
-	Lightning bolt	2
-	Haste		1
-	Dodge		2
-	
-Earth:	push/pull	2
-	root		1
-	slow		2
-	untyped attack	1
+200-034:
+* Upon entering the room for the first time, all players take permanent silence.
+* The effect ends and the idol is released if the appropriate pairs of buttons are pressed at the same time (though in any order). GMs should signal progress towards this goal. Any misspress resets progress.
+* Appropriate pairs are:
+ - Sun & Banana
+ - Apple & Heart
+ - Carrot & Jack-o-lantern
+ - Tree & Frog
