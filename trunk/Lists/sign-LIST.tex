@@ -139,19 +139,19 @@
 \NEW{Sign}{\slookAround}{
   \s\MYname{Writing on the wall}
   \s\MYloc{Start}
-  \s\MYText{{\fontsize{120}{144} \normalfont Look Around You}}
+  \s\MYtext{{\fontsize{120}{144} \normalfont Look Around You}}
   }
 
 \NEW{Sign}{\swalkabout}{
   \s\MYname{Writing on the wall}
   \s\MYloc{near start}
-  \s\MYText{{\fontsize{120}{144} \normalfont You never know where an odd walk will take you.}}
+  \s\MYtext{{\fontsize{120}{144} \normalfont You never know where an odd walk will take you.}}
   }
 
 \NEW{Sign}{\sintroSign}{
   \s\MYname{Dark Hallways}
   \s\MYloc{Start}
-  \s\MYText{At the bottom of the pit, you see a dark stone hallway stretches onwards before you. The walls are spotted with prison cells, though there is no sign of life inside them. You can hear the screeching of rats off in the distance.}
+  \s\MYtext{At the bottom of the pit, you see a dark stone hallway stretches onwards before you. The walls are spotted with prison cells, though there is no sign of life inside them. You can hear the screeching of rats off in the distance.}
   }
 
 \NEW{Sign}{\scorpse}{
@@ -169,25 +169,25 @@
 \NEW{Sign}{\sguardhouse}{
   \s\MYname{Guard House}
   \s\MYloc{303}
-  \s\MYtest{A wall and pit that would once have separated prisoners from what lies beyond. A small guardhouse on the far side seems to have a mechanism for deactivating the wall. The ground on the pit and beyond glows with a strange blue light.}
+  \s\MYtext{A wall and pit that would once have separated prisoners from what lies beyond. A small guardhouse on the far side seems to have a mechanism for deactivating the wall. The ground on the pit and beyond glows with a strange blue light.}
   }
 
 \NEW{Sign}{\sfloorthreetoone}{
   \s\MYname{Stairs}
   \s\MYloc{3rd floor stairs}
-  \s\MYText{You may take these stairs to the first floor}
+  \s\MYtext{You may take these stairs to the first floor}
   }
 
 \NEW{Sign}{\sflooronetothree}{
   \s\MYname{Stairs}
   \s\MYloc{1st floor stairs}
-  \s\MYText{You may take these stairs to the third floor}
+  \s\MYtext{You may take these stairs to the third floor}
   }
 
 \NEW{Sign}{\sgemeye}{
   \s\MYname{Statue}
   \s\MYloc{3rd floor hallway}
-  \s\MYText{You see a stone lion statue. One of its eyes is a blue gem. The other socket is empty. Inscribed below is ``I can see the way''.}
+  \s\MYtext{You see a stone lion statue. One of its eyes is a blue gem. The other socket is empty. Inscribed below is ``I can see the way''.}
   }
   
 \NEW{Sign}{\spalace}{
@@ -304,3 +304,81 @@
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Floor 1
+
+\NEW{Sign}{\sfirstexit}{
+  \s\MYname{Stairs}
+  \s\MYtext{Behind this door you see stairs descending deeper into the mountain. Unfortunately, the door appears to be locked. There is a key hole, but you're going to need a key.
+  
+  If you have a key (item number \ikey{\MYnumber}) you may take these stairs to the basement.}
+  }
+  
+  \NEW{Sign}{\sSpiderDen}{
+  \s\MYname{Spider Nest}
+  \s\MYtext{An unlocked iron gate.  Behind the the gate you can see large egg sacks covering the floor.  As you approach, the spiders' chittering grows louder.}
+  }
+  
+  \NEW{Sign}{\sCorpse}{
+  \s\MYname{Skeleton}
+  \s\MYtext{The bones of another who braved these dungeons before you.}
+  }
+  
+    \NEW{Sign}{\sEggSack}{
+  \s\MYname{Egg Sack}
+  \s\MYtext{A giant leathery blob filled with eggs.  The sack is attached to the floor with thick webs. }
+  }
+
+
+    \NEW{Sign}{\sRatDen}{
+  \s\MYname{Rat Den}
+  \s\MYtext{An iron gate stands between you and a horde of giant rats.}
+  }
+  
+      \NEW{Sign}{\sLaser}{
+  \s\MYname{Cell}
+  \s\MYtext{Inside, a statue stands watch over a single cell.  A small red light illuminates a section of the wall.}
+  }
+  
+  
+  % Floor 3
+  
+        \NEW{Sign}{\sLavaRoom}{
+  \s\MYname{Bridge}
+  \s\MYtext{This cave is entirely filled with lava.  A small bridge spans the gap between the two exits.}
+  }
+  
+          \NEW{Sign}{\sLava}{
+  \s\MYname{Lava}
+  \s\MYtext{A pool of lava.}
+  }
+
+\NEW{Sign}{\sBridge}{
+  \s\MYname{Bridge}
+  \s\MYtext{A precarious wooden bridge.  The supports are starting to rot and looks like a bit more damage to the bridge would cause it to collapse.}
+  }
+
+\NEW{Sign}{\sTorture}{
+  \s\MYname{Torture Chamber}
+  \s\MYtext{A viewport in the door reveals a  room with large whirring machines.  None of them look comfortable to be near.}
+}
+
+\NEW{Sign}{\sCrushingWall}{
+  \s\MYname{Crushing Wall Trap}
+  \s\MYtext{It appears that the walls on the hallway can push together to crush unsuspecting victims.  The walls are currently closed and the machinery to operate the trap is damaged.  It appears to be missing a gear.}
+}
+
+\NEW{Sign}{\sCrushingWallFixed}{
+  \s\MYname{Crushing Wall Trap}
+  \s\MYtext{It appears that the walls on the hallway can push together to crush unsuspecting victims.}
+}
+
+\NEW{Sign}{\sCrushingWallOpen}{
+  \s\MYname{Crushing Wall Trap}
+  \s\MYtext{It appears that the walls on the hallway can push together to crush unsuspecting victims.  The walls are currently open and the machinery to operate the trap is damaged.  It appears to be missing a gear.}
+}
+
+\NEW{Sign}{\sLever}{
+  \s\MYname{Lever}
+  \s\MYtext{A lever.  If you activate it, tell a GM.}
+}
